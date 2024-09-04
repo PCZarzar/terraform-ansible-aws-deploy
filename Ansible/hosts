@@ -1,0 +1,10 @@
+[ec2_instances]
+instance1 ansible_host=ec2-44-211-185-193.compute-1.amazonaws.com
+instance2 ansible_host=ec2-3-235-50-243.compute-1.amazonaws.com
+instance3 ansible_host=ec2-44-214-180-191.compute-1.amazonaws.com
+
+[ec2_instances:vars]
+ansible_user=ubuntu
+ansible_ssh_private_key_file=~/.ssh/ansible.pem
+
+
